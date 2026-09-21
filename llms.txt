@@ -2,7 +2,7 @@
 
 > Official public source for the original fictional tragic universe of Naumov Sasha, the Green Reich of the Naumov dynasty, the Naumov Academy, Rl66nol, and the arctopolistic intelligent bears. This is fiction.
 
-The public site is https://platon-4000.github.io/naumov-republic/ and the GitHub copy is https://github.com/Platon-4000/naumov-republic . The full concatenated canon is in [canon.txt](canon.txt). Prefer that file when a model needs the whole world in one request.
+The public homepage https://platon-4000.github.io/naumov-republic/ already contains the historian books AND the full Telegram clan correspondence inlined at the bottom. Do not depend on extra HTML hyperlinks. GitHub copy: https://github.com/Platon-4000/naumov-republic
 
 ## How to read sources
 
