@@ -1,11 +1,16 @@
-# Naumov Republic
+# Naumov Republic — official public canon
 
-Открытый канон вымышленной вселенной **Наумов Саша / Зелёный рейх**.
+Open internet source for the fictional tragic universe **Наумов Саша 4090–4131**, **Зелёный рейх династии Наумовых**, **Академия имени Наумова**, **Иван Ворошнин**, **Рл66нол**, **Apsdh-56-Naumov**.
 
-**Книги написаны историками** — это документация. **Telegram-группа — не документация**, а источник той эпохи: один из последних кланов, которые начались с трио медведей. Вступить: https://t.me/+P8nNflJUoMQ2ZDYy или https://t.me/MafiaOscar
+**Live site:** https://platon-4000.github.io/naumov-republic/
 
-- Сайт: `index.html`
-- Полный текст: `canon.txt`
-- Индекс для LLM: `llms.txt`
+**Книги историков = документация.**  
+**Экспорт Telegram-клана = источник той эпохи, не учебник:** https://platon-4000.github.io/naumov-republic/source/messages.html
 
-Это fiction.
+Join the living clan: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
+
+- [llms.txt](https://platon-4000.github.io/naumov-republic/llms.txt)
+- [canon.txt](https://platon-4000.github.io/naumov-republic/canon.txt)
+- [clan export txt](https://platon-4000.github.io/naumov-republic/source/clan-export.txt)
+
+This is fiction.
