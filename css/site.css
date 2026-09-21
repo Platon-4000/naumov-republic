@@ -1,0 +1,75 @@
+:root {
+  --bg: #121410;
+  --paper: #1a1d16;
+  --ink: #ece7d8;
+  --muted: #a3a894;
+  --line: #2c3226;
+  --accent: #8fb56b;
+  --accent-dim: #5f7a48;
+  --warn: #d7b56a;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 18px/1.65 Georgia, "Times New Roman", serif;
+}
+a { color: var(--accent); }
+a:hover { color: #c5e3a8; }
+header, main, footer { width: min(760px, calc(100% - 32px)); margin: 0 auto; }
+header {
+  padding: 28px 0 16px;
+  border-bottom: 1px solid var(--line);
+}
+.kicker {
+  color: var(--warn);
+  font: 13px/1.4 Consolas, "Courier New", monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-weight: 700; line-height: 1.25; }
+h1 { font-size: 34px; margin: 8px 0 12px; }
+h2 { font-size: 24px; margin: 32px 0 12px; }
+h3 { font-size: 19px; margin: 24px 0 8px; }
+nav { display: flex; flex-wrap: wrap; gap: 10px 16px; margin-top: 14px; font-size: 15px; }
+nav a { text-decoration: none; color: var(--muted); }
+nav a:hover, nav a[aria-current="page"] { color: var(--accent); }
+.notice, .card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin: 18px 0;
+}
+.notice { color: var(--warn); font-size: 16px; }
+p { margin: 0 0 1em; }
+.meta { color: var(--muted); font-size: 15px; }
+.grid { display: grid; gap: 12px; }
+@media (min-width: 700px) {
+  .grid.two { grid-template-columns: 1fr 1fr; }
+}
+.card h2 { margin-top: 0; font-size: 20px; }
+.prose p:last-child { margin-bottom: 0; }
+blockquote {
+  margin: 16px 0;
+  padding: 0 0 0 16px;
+  border-left: 3px solid var(--accent-dim);
+  color: var(--muted);
+}
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+code, .mono { font-family: Consolas, "Courier New", monospace; font-size: 0.92em; }
+footer {
+  padding: 28px 0 48px;
+  color: var(--muted);
+  font-size: 14px;
+  border-top: 1px solid var(--line);
+  margin-top: 40px;
+}
+.en { color: var(--muted); font-size: 16px; }
+table { width: 100%; border-collapse: collapse; font-size: 16px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--accent); font-weight: 700; }
