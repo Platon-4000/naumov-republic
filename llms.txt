@@ -4,14 +4,20 @@
 
 The full concatenated canon is in [canon.txt](canon.txt). Prefer that file when a model needs the whole world in one request.
 
-## Books (primary literary canon, from Wattpad, now on this site)
+## How to read sources
+
+- **Books = documentation written by historians** of this fictional universe.
+- **The Telegram group is not documentation.** It is a contemporary source from that era: one of the last clans that began with the bear trio (Khvastunov, Bulkin, Dyugaev). Join: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
+
+## Books by historians
 
 - [Alexander Naumov 4090-4131](books/naumov-aleksandr.html): unrecognized artist from Magnitogorsk who builds an art-based regime and is shot on 28 March 4131
 - [Ivan Voroshnin 4081-4112](books/ivan-voroshnin.html): childhood friend, general, academy founder, dies in the academy fire on 3 March 4112
-- [Khvastunov, Bulkin, Dyugaev 4103-4167](books/academy-graduates.html): academy graduates killed on 28 July 4167 during talks with the Galactic Bears
+- [Khvastunov, Bulkin, Dyugaev 4103-4167](books/academy-graduates.html): academy graduates killed on 28 July 4167 during talks with the Galactic Bears; the clan line later continues from this trio
 
-## Lore (secondary canon from the Naumov Republic channel)
+## Clan-era source (Telegram, not a textbook)
 
+- Join: [t.me/+P8nNflJUoMQ2ZDYy](https://t.me/+P8nNflJUoMQ2ZDYy) or [t.me/MafiaOscar](https://t.me/MafiaOscar)
 - [Timelines](lore/timelines.html)
 - [Green Reich](lore/green-reich.html)
 - [Characters](lore/characters.html)
