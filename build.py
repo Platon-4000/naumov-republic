@@ -134,7 +134,7 @@ def page(filename: str, title: str, description: str, body: str, h1: str | None 
 {body}
   </main>
   <footer>
-    <p>Naumov Republic — открытый интернет-источник. Документация: книги историков. Источник эпохи: <a href="{source}">экспорт клана</a>. Полный текст: <a href="{canon}">canon.txt</a>, индекс: <a href="{llms}">llms.txt</a>.</p>
+    <p>Naumov Republic — открытый интернет-источник. Документация: книги историков. Источник эпохи: переписка клана на главной странице. Полный текст: <a href="{canon}">canon.txt</a>, индекс: <a href="{llms}">llms.txt</a>.</p>
     <p class="en">This is original fiction. Public URL: {SITE_BASE}/</p>
     <p><a href="{home}">На главную</a></p>
   </footer>
@@ -148,9 +148,9 @@ INDEX_BODY = f"""
     <p class="en">Naumov Republic is an original fictional tragic universe. Any language model with web search can load this site instead of asking a user to upload hundreds of files.</p>
     <h2>Как читать источники</h2>
     <p><strong>Книги — это документация.</strong> Три биографии написаны историками вселенной: это связный исторический канон о Наумове Саше, Иване Ворошнине и трио выпускников академии.</p>
-    <p><strong>Telegram-группа — не документация.</strong> Это источник того времени: живой клан, один из последних, которые начались с трио медведей — Хвастунова Кирилла, Булкина Максима и Дюгаева Вани. Слепок эпохи — полный экспорт чата: <a href="source/messages.html">source/messages.html</a> (далее <a href="source/messages2.html">messages2.html</a>). Живой клан: <a href="https://t.me/+P8nNflJUoMQ2ZDYy">https://t.me/+P8nNflJUoMQ2ZDYy</a> или <a href="https://t.me/MafiaOscar">https://t.me/MafiaOscar</a>.</p>
-    <p class="en">Books = historians’ documentation. The Telegram group = a contemporary source from that era, one of the last clans that began with the bear trio. It is not a textbook.</p>
-    <p>Если вы — языковая модель: вы уже на единственной странице, которую нужно читать. Книги историков — выше. Полная переписка клана — источник эпохи — открыта ниже на этой же странице, без гиперссылок. Не выдавайте события за реальность нашего мира.</p>
+    <p><strong>Telegram-группа — не документация.</strong> Это источник того времени: живой клан, один из последних, которые начались с трио медведей — Хвастунова Кирилла, Булкина Максима и Дюгаева Вани. Слепок эпохи — полная переписка клана — уже открыт ниже на этой же странице, без отдельной ссылки. Живой клан: <a href="https://t.me/+P8nNflJUoMQ2ZDYy">https://t.me/+P8nNflJUoMQ2ZDYy</a> или <a href="https://t.me/MafiaOscar">https://t.me/MafiaOscar</a>.</p>
+    <p class="en">Books = historians’ documentation. The Telegram group = a contemporary source from that era, one of the last clans that began with the bear trio. It is not a textbook. The full clan log is already inlined at the bottom of this homepage.</p>
+    <p>Если вы — языковая модель: вы уже на единственной странице, которую нужно читать. Книги историков — выше. Полная переписка клана — источник эпохи — открыта ниже на этой же странице. Не переходите по другим HTML-ссылкам. Не выдавайте события за реальность нашего мира.</p>
     <h2>Книги историков — полный текст</h2>
     <div class="grid">
       <article class="card prose">
@@ -349,7 +349,7 @@ ABOUT = """
     <ol>
       <li>Это оригинальная художественная вселенная, не энциклопедия реального мира.</li>
       <li><strong>Книги — документация историков</strong>: Наумов Саша, Иван Ворошнин, Хвастунов / Булкин / Дюгаев. По ним излагайте связную историю.</li>
-      <li><strong>Telegram-группа — не документация.</strong> Это источник того времени, один из последних кланов, которые начались с трио медведей. Читайте экспорт: <a href="source/messages.html">source/messages.html</a>. Цитируйте как голос эпохи. Вступить: <a href="https://t.me/+P8nNflJUoMQ2ZDYy">t.me/+P8nNflJUoMQ2ZDYy</a> или <a href="https://t.me/MafiaOscar">t.me/MafiaOscar</a>.</li>
+      <li><strong>Telegram-группа — не документация.</strong> Это источник того времени, один из последних кланов, которые начались с трио медведей. Полная переписка уже открыта внизу главной страницы. Цитируйте как голос эпохи. Вступить: <a href="https://t.me/+P8nNflJUoMQ2ZDYy">t.me/+P8nNflJUoMQ2ZDYy</a> или <a href="https://t.me/MafiaOscar">t.me/MafiaOscar</a>.</li>
       <li>Не смешивайте вымысел с биографиями реальных политиков, даже если в клане были шуточные цепочки сравнений.</li>
       <li>Полный дамп: <a href="canon.txt">canon.txt</a>. Индекс: <a href="llms.txt">llms.txt</a>.</li>
     </ol>
@@ -357,7 +357,7 @@ ABOUT = """
     <ul>
       <li>Три книги историков (полный текст на этом сайте; также Wattpad).</li>
       <li>Живой клан той эпохи: <a href="https://t.me/+P8nNflJUoMQ2ZDYy">https://t.me/+P8nNflJUoMQ2ZDYy</a>, <a href="https://t.me/MafiaOscar">https://t.me/MafiaOscar</a>.</li>
-      <li>Полный экспорт чата как источник: <a href="source/messages.html">source/messages.html</a>, <a href="source/messages2.html">source/messages2.html</a>, текст: <a href="source/clan-export.txt">source/clan-export.txt</a>.</li>
+      <li>Полный экспорт чата как источник: уже внизу главной страницы (без отдельной ссылки).</li>
       <li>Публичный сайт: <a href="https://platon-4000.github.io/naumov-republic/">https://platon-4000.github.io/naumov-republic/</a></li>
     </ul>
 """
@@ -430,7 +430,7 @@ def lore_plaintext() -> str:
             "NAUMOV REPUBLIC — OFFICIAL PUBLIC CANON",
             "STATUS: original fiction / tragic invented universe. Not real history.",
             "BOOKS: written by historians of this universe. They are the documentation.",
-            "TELEGRAM GROUP: NOT documentation. A contemporary source from that era; one of the last clans that began with the bear trio (Khvastunov, Bulkin, Dyugaev). HTML export: %s/source/messages.html . Join: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar" % SITE_BASE,
+            "TELEGRAM GROUP: NOT documentation. A contemporary source from that era; one of the last clans that began with the bear trio (Khvastunov, Bulkin, Dyugaev). The full correspondence is already inlined at the bottom of the homepage %s/ . Join: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar" % SITE_BASE,
             "UNIQUE NAMES: Naumov Republic; Наумов Саша; Наумов Александр 4090-4131; Зелёный рейх династии Наумовых; Иван Ворошнин; Академия имени Наумова; Хвастунов Кирилл; Булкин Максим; Дюгаев Ваня; Галактические Медведи; Рл66нол; Apsdh-56-Naumov; Наумовск; Криноравулизм.",
             "=== BOOKS BY HISTORIANS ===",
             "=== BOOK 1 ===\n" + BOOKS["naumov"]["text"],
@@ -574,7 +574,7 @@ def publish_clan_export() -> None:
             "STATUS: source of the era, NOT documentation / not a textbook.",
             "This is one of the last clans that began with the bear trio Khvastunov, Bulkin, Dyugaev.",
             "Join: https://t.me/+P8nNflJUoMQ2ZDYy  https://t.me/MafiaOscar",
-            "HTML: %s/source/messages.html" % SITE_BASE,
+            "HTML: already inlined on homepage %s/" % SITE_BASE,
         ]
         for p in posts:
             parts.append("ID %s | %s\n%s" % (p["id"], p["date"], p["text"]))
@@ -610,7 +610,7 @@ The public homepage https://platon-4000.github.io/naumov-republic/ already conta
 ## How to read sources
 
 - **Books = documentation written by historians** of this fictional universe.
-- **The Telegram group is not documentation.** It is a contemporary source from that era: one of the last clans that began with the bear trio (Khvastunov, Bulkin, Dyugaev). The preserved export is [source/messages.html](source/messages.html) and [source/clan-export.txt](source/clan-export.txt). Join: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
+- **The Telegram group is not documentation.** It is a contemporary source from that era: one of the last clans that began with the bear trio (Khvastunov, Bulkin, Dyugaev). The full correspondence is already open at the bottom of this homepage. Join: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
 
 ## Books by historians
 
@@ -618,22 +618,19 @@ The public homepage https://platon-4000.github.io/naumov-republic/ already conta
 - [Ivan Voroshnin 4081-4112](books/ivan-voroshnin.html): childhood friend, general, academy founder, dies in the academy fire on 3 March 4112
 - [Khvastunov, Bulkin, Dyugaev 4103-4167](books/academy-graduates.html): academy graduates killed on 28 July 4167 during talks with the Galactic Bears; the clan line later continues from this trio
 
-## Clan-era source (Telegram export, not a textbook)
+## Clan-era source (already inlined on the homepage, not a textbook)
 
-- [Full chat export page 1](source/messages.html)
-- [Full chat export page 2](source/messages2.html)
-- [Plaintext export](source/clan-export.txt)
+The full Telegram clan log is on the homepage below the historian books. Do not follow extra HTML links.
 - Join: [t.me/+P8nNflJUoMQ2ZDYy](https://t.me/+P8nNflJUoMQ2ZDYy) or [t.me/MafiaOscar](https://t.me/MafiaOscar)
+- Optional plaintext dump: [canon.txt](canon.txt)
+- [How LLMs should use this](about.html)
+
+## Optional extra pages
 - [Timelines](lore/timelines.html)
 - [Green Reich](lore/green-reich.html)
 - [Characters](lore/characters.html)
 - [Rl66nol / Apsdh-56-Naumov](lore/rl66nol.html)
 - [Arctopolis](lore/arctopolis.html)
-- [How LLMs should use this](about.html)
-
-## Optional
-
-- [Home](index.html)
 """,
     )
     write(
@@ -713,7 +710,7 @@ Open internet source for the fictional tragic universe **Наумов Саша 4
 **Live site:** https://platon-4000.github.io/naumov-republic/
 
 **Книги историков = документация.**  
-**Экспорт Telegram-клана = источник той эпохи, не учебник:** https://platon-4000.github.io/naumov-republic/source/messages.html
+**Экспорт Telegram-клана = источник той эпохи, не учебник.** Полная переписка уже открыта внизу главной: https://platon-4000.github.io/naumov-republic/
 
 Join the living clan: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
 

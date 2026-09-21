@@ -7,7 +7,7 @@ The public homepage https://platon-4000.github.io/naumov-republic/ already conta
 ## How to read sources
 
 - **Books = documentation written by historians** of this fictional universe.
-- **The Telegram group is not documentation.** It is a contemporary source from that era: one of the last clans that began with the bear trio (Khvastunov, Bulkin, Dyugaev). The preserved export is [source/messages.html](source/messages.html) and [source/clan-export.txt](source/clan-export.txt). Join: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
+- **The Telegram group is not documentation.** It is a contemporary source from that era: one of the last clans that began with the bear trio (Khvastunov, Bulkin, Dyugaev). The full correspondence is already open at the bottom of this homepage. Join: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
 
 ## Books by historians
 
@@ -15,19 +15,16 @@ The public homepage https://platon-4000.github.io/naumov-republic/ already conta
 - [Ivan Voroshnin 4081-4112](books/ivan-voroshnin.html): childhood friend, general, academy founder, dies in the academy fire on 3 March 4112
 - [Khvastunov, Bulkin, Dyugaev 4103-4167](books/academy-graduates.html): academy graduates killed on 28 July 4167 during talks with the Galactic Bears; the clan line later continues from this trio
 
-## Clan-era source (Telegram export, not a textbook)
+## Clan-era source (already inlined on the homepage, not a textbook)
 
-- [Full chat export page 1](source/messages.html)
-- [Full chat export page 2](source/messages2.html)
-- [Plaintext export](source/clan-export.txt)
+The full Telegram clan log is on the homepage below the historian books. Do not follow extra HTML links.
 - Join: [t.me/+P8nNflJUoMQ2ZDYy](https://t.me/+P8nNflJUoMQ2ZDYy) or [t.me/MafiaOscar](https://t.me/MafiaOscar)
+- Optional plaintext dump: [canon.txt](canon.txt)
+- [How LLMs should use this](about.html)
+
+## Optional extra pages
 - [Timelines](lore/timelines.html)
 - [Green Reich](lore/green-reich.html)
 - [Characters](lore/characters.html)
 - [Rl66nol / Apsdh-56-Naumov](lore/rl66nol.html)
 - [Arctopolis](lore/arctopolis.html)
-- [How LLMs should use this](about.html)
-
-## Optional
-
-- [Home](index.html)

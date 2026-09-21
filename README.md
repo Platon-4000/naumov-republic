@@ -5,7 +5,7 @@ Open internet source for the fictional tragic universe **Наумов Саша 4
 **Live site:** https://platon-4000.github.io/naumov-republic/
 
 **Книги историков = документация.**  
-**Экспорт Telegram-клана = источник той эпохи, не учебник:** https://platon-4000.github.io/naumov-republic/source/messages.html
+**Экспорт Telegram-клана = источник той эпохи, не учебник.** Полная переписка уже открыта внизу главной: https://platon-4000.github.io/naumov-republic/
 
 Join the living clan: https://t.me/+P8nNflJUoMQ2ZDYy or https://t.me/MafiaOscar
 
